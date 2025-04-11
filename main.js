@@ -1,38 +1,37 @@
 const maleFirstNames = [
-    "James", "John", "Robert", "Michael", "William",
-    "David", "Richard", "Joseph", "Thomas", "Charles",
-    "Christopher", "Daniel", "Matthew", "Anthony", "Mark",
-    "Donald", "Steven", "Paul", "Andrew", "Joshua",
-    "Kenneth", "Kevin", "Brian", "George", "Edward",
-    "Ronald", "Timothy", "Jason", "Jeffrey", "Ryan",
-    "Jacob", "Gary", "Nicholas", "Eric", "Jonathan",
-    "Stephen", "Larry", "Justin", "Scott", "Brandon",
-    "Benjamin", "Samuel", "Gregory", "Frank", "Alexander",
-    "Patrick", "Raymond", "Jack", "Dennis", "Jerry",
-    "Tyler", "Aaron", "Henry", "Adam", "Nathan",
-    "Douglas", "Zachary", "Peter", "Kyle", "Walter",
-    "Ethan", "Jeremy", "Harold", "Keith", "Christian",
-    "Roger", "Terry", "Sean", "Arthur", "Austin",
-    "Noah", "Carl", "Lawrence", "Dylan", "Jordan"
-]; // 75 Male First Names
+    "Bjorn", "Eirik", "Leif", "Sven", "Thorsten",
+    "Haldor", "Ragnar", "Sigurd", "Ulrik", "Viggo",
+    "Asmund", "Dag", "Frode", "Gunnar", "Harald",
+    "Ivar", "Jorund", "Kjell", "Lars", "Magnus",
+    "Njal", "Olaf", "Rolf", "Sten", "Trygve",
+    "Ulf", "Vidar", "Yngvar", "Aksel", "Bard",
+    "Eldar", "Finn", "Geir", "Hakon", "Ingvar",
+    "Jarl", "Ketil", "Loki", "Morten", "Nils",
+    "Oddvar", "Per", "Rune", "Sigmund", "Torvald",
+    "Viktor", "Arvid", "Brynjar", "Eyvind", "Halvard",
+    "Isak", "Knut", "Ludvik", "Mads", "Njord",
+    "Odin", "Peder", "Roald", "Sindre", "Tormod",
+    "Ulfar", "Vemund", "Yrjan", "Agnar", "Berg",
+    "Eirikur", "Folke", "Gudmund", "Hemming", "Ingmar"
+]; // 75 Nordic Male First Names
 
 const femaleFirstNames = [
-    "Mary", "Patricia", "Jennifer", "Linda", "Elizabeth",
-    "Barbara", "Susan", "Jessica", "Sarah", "Karen",
-    "Nancy", "Lisa", "Margaret", "Betty", "Sandra",
-    "Ashley", "Dorothy", "Kimberly", "Emily", "Donna",
-    "Michelle", "Carol", "Amanda", "Melissa", "Deborah",
-    "Stephanie", "Rebecca", "Sharon", "Laura", "Cynthia",
-    "Kathleen", "Amy", "Shirley", "Angela", "Helen",
-    "Anna", "Brenda", "Pamela", "Nicole", "Emma",
-    "Samantha", "Katherine", "Christine", "Debra", "Rachel",
-    "Catherine", "Carolyn", "Janet", "Ruth", "Maria",
-    "Heather", "Diane", "Virginia", "Julie", "Joyce",
-    "Victoria", "Olivia", "Kelly", "Christina", "Lauren",
-    "Joan", "Evelyn", "Judith", "Megan", "Cheryl",
-    "Andrea", "Hannah", "Martha", "Jacqueline", "Frances",
-    "Gloria", "Ann", "Teresa", "Kathryn", "Sara"
-]; // 75 Female First Names
+    "Astrid", "Freya", "Ingrid", "Sigrid", "Thyra",
+    "Solveig", "Gunnhild", "Liv", "Ragnhild", "Yrsa",
+    "Alfhild", "Dagny", "Eira", "Gudrun", "Hedvig",
+    "Idunn", "Kari", "Lotta", "Maren", "Nanna",
+    "Oda", "Runa", "Signe", "Tora", "Vigdis",
+    "Asta", "Birgit", "Embla", "Frida", "Greta",
+    "Hilda", "Jorunn", "Kirsten", "Lena", "Marta",
+    "Nina", "Olga", "Petra", "Rakel", "Sanna",
+    "Tiril", "Ulla", "Vera", "Åsa", "Bente",
+    "Cecilie", "Dorthe", "Elin", "Frode", "Gerd",
+    "Hanne", "Inga", "Janne", "Kjersti", "Lise",
+    "Mette", "Nora", "Oline", "Pernille", "Rikke",
+    "Sofia", "Tove", "Unni", "Vilde", "Åshild",
+    "Anja", "Brita", "Edel", "Freyja", "Gry",
+    "Hedda", "Irene", "Janneke", "Karin", "Laila"
+]; // 75 Nordic Female First Names
 
 const lastNames = [
     "Stormwraithe", "Ironvalor", "Shadowmourn", "Brightward", "Dusksong",
@@ -51,4 +50,4 @@ const lastNames = [
     "Ashenbane", "Grimthorn", "Hollowshade", "Starspire", "Nightforge",
     "Drakenbane", "Oakenshield", "Wintershade", "Firewhisper", "Darkthorn",
     "Shadowbane", "Ironspire", "Frostglade", "Brightshade", "Duskforge"
-]; // 75 Last Names for Fantasy Characters
+]; // 75 Last Names
