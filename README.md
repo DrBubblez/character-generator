@@ -1,1 +1,3 @@
-# character-generator
+# Character Generator
+
+# *THIS IS CURRENTLY UNDER DEVELOPMENT*
