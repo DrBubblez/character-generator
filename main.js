@@ -51,3 +51,17 @@ const lastNames = [
     "Drakenbane", "Oakenshield", "Wintershade", "Firewhisper", "Darkthorn",
     "Shadowbane", "Ironspire", "Frostglade", "Brightshade", "Duskforge"
 ]; // 75 Last Names
+
+const random = num => {
+    return Math.floor(Math.random() * num);
+}; // Simple random number generator
+
+const generateName = () => {
+    const gender = random(2);
+    switch (gender) {
+        case 0:
+            return `${maleFirstNames[random(maleFirstNames.length)]} ${lastNames[random(lastNames.length)]}`;
+        case 1:
+            return `${femaleFirstNames[random(femaleFirstNames.length)]} ${lastNames[random(lastNames.length)]}`;
+    }
+}; // Generates a random name based off the randomized gender
