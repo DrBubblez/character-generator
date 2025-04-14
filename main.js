@@ -52,6 +52,24 @@ const lastNames = [
     "Shadowbane", "Ironspire", "Frostglade", "Brightshade", "Duskforge"
 ]; // 75 Last Names
 
+const traits = [
+    "Chivalrous", "Vindictive", "Analytical", "Generous", "Callous",
+    "Stoic", "Empathetic", "Domineering", "Methodical", "Heroic",
+    "Petty", "Observant", "Virtuous", "Spiteful", "Unpredictable",
+    "Gracious", "Grudgeful", "Eccentric", "Tactful", "Overzealous",
+    "Mysterious", "Sincere", "Paranoid", "Cautious", "Diligent",
+    "Obstinate", "Balanced", "Faithful", "Apathetic", "Neutral",
+    "Altruistic", "Disloyal", "Experimental", "Courteous", "Unforgiving",
+    "Unorthodox", "Gallant", "Conniving", "Mediative", "Merciful",
+    "Hypocritical", "Detached", "Devoted", "Overcritical", "Unwavering",
+    "Valiant", "Intolerant", "Inquisitive", "Considerate", "Resentful",
+    "Strategic", "Cheerful", "Overindulgent", "Flexible", "Dependable",
+    "Scheming", "Reserved", "Selfless", "Malicious", "Impartial",
+    "Optimistic", "Arrogant", "Pragmatic", "Humble", "Deceptive",
+    "Independent", "Patient", "Greedy", "Ambitious", "Loyal",
+    "Jealous", "Adaptable", "Kindhearted", "Manipulative", "Realistic"
+];
+
 const random = num => {
     return Math.floor(Math.random() * num);
 }; // Simple random number generator
