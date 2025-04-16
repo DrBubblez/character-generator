@@ -96,3 +96,17 @@ const generateName = () => {
             return `${femaleFirstNames[random(femaleFirstNames.length)]} ${lastNames[random(lastNames.length)]}`;
     }
 }; // Generates a random name based off the randomized gender
+
+const genCharacterTraits = () => {
+    let characterTraits = [];
+    let trait = '';
+    for (let i = 0; i < 3; i++) {
+        trait = traits[random(traits.length)]
+        if (characterTraits.includes(trait) !== true) {
+            characterTraits.push(trait);
+        } else {
+            i--;
+        };
+    };
+    return characterTraits;
+}; // Generates an array of 3 Character Traits without duplicates
