@@ -68,7 +68,20 @@ const traits = [
     "Optimistic", "Arrogant", "Pragmatic", "Humble", "Deceptive",
     "Independent", "Patient", "Greedy", "Ambitious", "Loyal",
     "Jealous", "Adaptable", "Kindhearted", "Manipulative", "Realistic"
-];
+]; // 75 Traits
+
+const locations = [
+    "Winterhold", "Riften", "Solitude", "Whiterun", "Windhelm",
+    "Falkreath", "Markarth", "Dawnstar", "Morthal", "Riverwood",
+    "Helgen", "Ivarstead", "Kynesgrove", "Dragon Bridge", "Shor's Stone",
+    "Bruma", "Chorrol", "Cheydinhal", "Leyawiin", "Anvil",
+    "Kvatch", "Skingrad", "Corinthe", "Daggerfall", "Wayrest",
+    "Sentinel", "Evermor", "Orsinium", "Shornhelm", "Camlorn",
+    "Solstheim", "Raven Rock", "Tel Mithryn", "Balmora", "Ald'ruhn",
+    "Vivec", "Sadrith Mora", "Gnisis", "Caldera", "Pelagiad",
+    "Ebonheart", "Seyda Neen", "Hla Oad", "Gnaar Mok", "Tel Aruhn",
+    "Tel Branora", "Molag Mar", "Vos", "Khuul", "Maar Gan"
+]; // 50 Locations
 
 const random = num => {
     return Math.floor(Math.random() * num);
