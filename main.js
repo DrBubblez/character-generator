@@ -110,3 +110,22 @@ const genCharacterTraits = () => {
     };
     return characterTraits;
 }; // Generates an array of 3 Character Traits without duplicates
+
+const randomCharacter = () => {
+    const character = {
+        name: generateName(),
+        age: (random(100) + 1),
+        home: locations[random(locations.length)],
+        traits: genCharacterTraits()
+    };
+    return character;
+}; // Generates a character object using the helper fucntions 
+
+const hero1 = randomCharacter();
+
+console.log(
+    `You are ${hero1.name}, a Nord from ${hero1.home}. You're the ripe age of ${hero1.age} 
+    and can be described as being ${hero1.traits[0]}, ${hero1.traits[1]}, and 
+    ${hero1.traits[2]} - make of that what you will. Unbeknownst to you, ${hero1.name}, you're 
+    about to embark on a grand adventure.`
+);
